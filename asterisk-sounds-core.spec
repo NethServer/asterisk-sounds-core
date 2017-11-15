@@ -4,7 +4,7 @@
 Summary: Core Sounds for Asterisk, The Open Source PBX
 Name: asterisk-sounds-core
 Version: 1.5
-Release: 2%{dist}
+Release: 3%{dist}
 License: GPL
 Group: Utilities/System
 Source10: http://downloads.digium.com/pub/telephony/sounds/releases/asterisk-core-sounds-en-ulaw-%{version}.tar.gz
@@ -654,3 +654,7 @@ cd $RPM_BUILD_DIR
 %attr(0664,asterisk,asterisk) /var/lib/asterisk/sounds/en_GB/CREDITS-asterisk-core-en_GB-%{version}
 %attr(0664,asterisk,asterisk) /var/lib/asterisk/sounds/en_GB/LICENSE-asterisk-core-en_GB-%{version}
 %attr(0664,asterisk,asterisk) /var/lib/asterisk/sounds/.asterisk-core-sounds-en_GB-sln16-%{version}
+
+%changelog
+* Wed Nov 15 2017 Stefano Fancello <stefano.fancello@nethesis.it> 1.5-3
+- Create Asterisk home when creating asterisk user
