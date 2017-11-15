@@ -272,88 +272,88 @@ This package contains Asterisk core sounds - en_GB - alaw.
 This package contains Asterisk core sounds - en_GB - sln16.
 
 %pre en-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_AU-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_AU-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_AU-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre es-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre es-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre es-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre fr-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre fr-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre fr-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre ja-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre ja-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre ja-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre it-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre it-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre it-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_GB-ulaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_GB-alaw
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %pre en_GB-wideband
-groupadd -f asterisk
-useradd -r -M -s /bin/bash -d /home/asterisk asterisk 2> /dev/null || :
+%{_sbindir}/groupadd -r asterisk &>/dev/null || :
+%{_sbindir}/useradd -r -s /bin/bash -d /home/asterisk -c 'Asterisk User' -g asterisk asterisk &>/dev/null || :
 
 %prep
 
